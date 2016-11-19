@@ -1,0 +1,12 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: HelenTeast2
+  host: HelenTeast2
+  disk_quota: 1024M
+  services:
+  - Conversation-m7
+  - Speech to Text-4h
+  - Text to Speech-ay
